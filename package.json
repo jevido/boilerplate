@@ -1,0 +1,35 @@
+{
+  "name": "pixeldrain",
+  "version": "1.0.0",
+  "description": "Pixeldrain a free file sharing service",
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "@tailwindcss/typography": "^0.4.0",
+    "vue": "^3.0.7",
+    "vue-router": "^4.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.7",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.5"
+  },
+  "keywords": [
+    "pixeldrain",
+    "files",
+    "free",
+    "sia"
+  ],
+  "author": "Jeffrey Duivenvoorden",
+  "license": "ISC"
+}
